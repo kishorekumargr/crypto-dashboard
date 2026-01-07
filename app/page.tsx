@@ -1,4 +1,5 @@
 import BalanceCard from "@/components/dashboard/BalanceCard";
+import CryptoTable from "@/components/dashboard/CryptoTable";
 import PriceChart from "@/components/dashboard/PriceChart";
 import StatsCard from "@/components/dashboard/StatsCard";
 import TradePanel from "@/components/dashboard/TradePanel";
@@ -13,6 +14,7 @@ export default function Dashboard() {
       </div>
       <div className="lg:col-span-2 space-y-6">
         <PriceChart />
+        <CryptoTable />
       </div>
     </div>
   );
