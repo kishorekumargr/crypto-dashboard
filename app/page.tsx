@@ -1,4 +1,5 @@
 import BalanceCard from "@/components/dashboard/BalanceCard";
+import PriceChart from "@/components/dashboard/PriceChart";
 import StatsCard from "@/components/dashboard/StatsCard";
 import TradePanel from "@/components/dashboard/TradePanel";
 
@@ -10,7 +11,9 @@ export default function Dashboard() {
         <StatsCard title="Traded Volume" value="$40,276.28" />
         <TradePanel />
       </div>
-      <div className="lg:col-span-2 space-y-6"></div>
+      <div className="lg:col-span-2 space-y-6">
+        <PriceChart />
+      </div>
     </div>
   );
 }
